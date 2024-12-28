@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libfilter_lib.a CMakeFiles/filter_lib.dir/src/core/naive_filter.cpp.obj CMakeFiles/filter_lib.dir/src/core/bitset_filter.cpp.obj CMakeFiles/filter_lib.dir/src/core/roaring_filter.cpp.obj
+C:\msys64\mingw64\bin\ranlib.exe libfilter_lib.a

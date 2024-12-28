@@ -1,0 +1,137 @@
+{
+  "context": {
+    "date": "2024-12-28T16:54:48-00:00",
+    "host_name": "MOHI",
+    "executable": "C:\\Users\\farid\\OneDrive\\Desktop\\hnsw\\build\\run_benchmarks.exe",
+    "num_cpus": 16,
+    "mhz_per_cpu": 3194,
+    "caches": [
+      {
+        "type": "Data",
+        "level": 1,
+        "size": 32768,
+        "num_sharing": 2
+      },
+      {
+        "type": "Instruction",
+        "level": 1,
+        "size": 32768,
+        "num_sharing": 2
+      },
+      {
+        "type": "Unified",
+        "level": 2,
+        "size": 524288,
+        "num_sharing": 2
+      },
+      {
+        "type": "Unified",
+        "level": 3,
+        "size": 16777216,
+        "num_sharing": 16
+      }
+    ],
+    "load_avg": [],
+    "library_version": "v1.9.1-7-gf4f93b55",
+    "library_build_type": "debug",
+    "json_schema_version": 1
+  },
+  "benchmarks": [
+    {
+      "name": "FilterBenchmark/NaiveFilterSingle/8/0",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "FilterBenchmark/NaiveFilterSingle/8/0",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 235789,
+      "real_time": 2.8654911806743608e+00,
+      "cpu_time": 2.9157424646612013e+00,
+      "time_unit": "us",
+      "items_per_second": 2.7437265454545454e+06,
+      "label": "Dense"
+    },
+    {
+      "name": "FilterBenchmark/BitsetFilterSingle/8/0",
+      "family_index": 1,
+      "per_family_instance_index": 0,
+      "run_name": "FilterBenchmark/BitsetFilterSingle/8/0",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 448000,
+      "real_time": 1.5662803571428543e+00,
+      "cpu_time": 1.5694754464285714e+00,
+      "time_unit": "us",
+      "items_per_second": 5.0972444444444440e+06,
+      "label": "Dense"
+    },
+    {
+      "name": "FilterBenchmark/RoaringFilterSingle/8/0",
+      "family_index": 2,
+      "per_family_instance_index": 0,
+      "run_name": "FilterBenchmark/RoaringFilterSingle/8/0",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 373333,
+      "real_time": 1.9120262607617684e+00,
+      "cpu_time": 1.9252249332365476e+00,
+      "time_unit": "us",
+      "items_per_second": 4.1553586086956523e+06,
+      "label": "Dense"
+    },
+    {
+      "name": "FilterBenchmark/NaiveFilterMulti/8/0",
+      "family_index": 3,
+      "per_family_instance_index": 0,
+      "run_name": "FilterBenchmark/NaiveFilterMulti/8/0",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 248889,
+      "real_time": 2.7691858619683614e+00,
+      "cpu_time": 2.7622755525555567e+00,
+      "time_unit": "us",
+      "items_per_second": 2.8961629090909092e+06,
+      "label": "Dense"
+    },
+    {
+      "name": "FilterBenchmark/BitsetFilterMulti/8/0",
+      "family_index": 4,
+      "per_family_instance_index": 0,
+      "run_name": "FilterBenchmark/BitsetFilterMulti/8/0",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 497778,
+      "real_time": 1.4389659647610245e+00,
+      "cpu_time": 1.4439167661085865e+00,
+      "time_unit": "us",
+      "items_per_second": 5.5404855652173916e+06,
+      "label": "Dense"
+    },
+    {
+      "name": "FilterBenchmark/RoaringFilterMulti/8/0",
+      "family_index": 5,
+      "per_family_instance_index": 0,
+      "run_name": "FilterBenchmark/RoaringFilterMulti/8/0",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 448000,
+      "real_time": 1.4821732142991095e+00,
+      "cpu_time": 1.4648437500000000e+00,
+      "time_unit": "us",
+      "items_per_second": 5.4613333333333330e+06,
+      "label": "Dense"
+    }
+  ]
+}

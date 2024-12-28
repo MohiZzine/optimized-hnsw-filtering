@@ -1,0 +1,7 @@
+Method,Type,Mean Time (μs),Mean Throughput (items/s),Min Time (μs),Max Time (μs)
+Bitset,Multi,1.44,5540485.57,1.44,1.44
+Bitset,Single,1.57,5097244.44,1.57,1.57
+Naive,Multi,2.76,2896162.91,2.76,2.76
+Naive,Single,2.92,2743726.55,2.92,2.92
+Roaring,Multi,1.46,5461333.33,1.46,1.46
+Roaring,Single,1.93,4155358.61,1.93,1.93
